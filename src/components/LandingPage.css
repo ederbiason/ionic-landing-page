@@ -1,0 +1,211 @@
+.spanNike {
+    color: rgb(60,0,175);
+}
+
+ion-content {
+    --padding-top: 5px;
+}
+
+.textTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.textDescription {
+    font-weight: 500;
+    text-align: center;
+}
+
+ion-button {
+    background-color: rgb(60,0,175);
+    color: white;
+    border-radius: 8px;
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+}
+
+.image-card {
+    background: linear-gradient(120deg, rgba(60,0,175,1) 0%, rgba(153,27,125,1) 100%);
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.image-card .efeito1{
+    transform: translate(-10%, 0%) rotate(-25deg);
+    animation: move1 1.5s infinite alternate ease-in-out;
+}
+
+.image-card .efeito2 {
+    transform: translate(0%, 30%);
+    animation: move2 1.5s infinite alternate ease-in-out;
+}
+
+.image-card .efeito3 {
+    transform: translate(0%, 20%);
+    animation: move3 1.5s infinite alternate ease-in-out;
+}
+
+.image-card .efeito4 {
+    transform: translate(0%, 50%);
+    animation: move4 1.5s infinite alternate ease-in-out;
+}
+
+.shopButton {
+    margin-left: 65px;
+}
+
+.shoeAbout {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.shoeTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.shoeDescription {
+    text-weight: 500;
+}
+
+.shoeBenefits {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: linear-gradient(120deg, rgba(60,0,175,1) 0%, rgba(153,27,125,1) 100%);
+    border-radius: 8px;
+    padding-bottom: 10px;
+}
+
+.shoeBenefitsTitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.benefits-img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.shoeBenefitsSlides {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits {
+    margin-top: 15px;
+    padding-bottom: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.benefits-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.benefits-slider {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits ion-icon {
+    font-size: 100px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: rgb(60,0,175);
+    margin-left: 10px;
+}
+
+ion-footer {
+    --ion-background-color: linear-gradient(120deg, rgba(60,0,175,1) 0%, rgba(153,27,125,1) 100%);
+}
+
+.order-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.order-section {
+    text-align: center;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 10px 20px 25px 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.order ion-icon {
+    margin-left: 10px;
+    color: rgb(60,0,175);
+}
+
+.socialMidia {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.socialIcon {
+    color: rgb(60,0,175);
+}
+
+.footer {
+    
+}
+
+.footer img {
+    margin-top: 15px;
+    width: 150px;
+    margin-left: 75px;
+    margin-bottom: 5px;
+}
+
+.footer span {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.footer-text {
+    margin-left: 65px;
+}
+
+@keyframes move1{
+    from{
+        transform: translate(-10%, -5%) rotate(-25deg);
+    }
+}
+
+@keyframes move2{
+    from{
+        transform: translate(0%, 20%);
+    }
+}
+
+@keyframes move3{
+    from{
+        transform: translate(0%, 10%);
+    }
+}
+
+@keyframes move4{
+    from{
+        transform: translate(0%, 40%);
+    }
+}
